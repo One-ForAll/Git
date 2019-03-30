@@ -18,6 +18,7 @@ git checkout dev		切换分支到dev
 )
 git branch		查看当前分支
 git branch -d dev 		删除dev分支
+git merge dev		合并分支
 git merge --no-ff -m "merge with no-ff" dev	禁用Fast forward模式合并dev分支
 git stash			将当前的工作现场隐藏起来
 git stash list		查看隐藏的工作现场
