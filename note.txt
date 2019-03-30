@@ -10,5 +10,7 @@ git checkout --readme.txt	取消工作区的所有操作
 cat readme.txt		查看文件内容
 rm readme.txt		删除文件
 git push origin master	把本地master分支的最新修改推送到GitHub上
+git checkout -b dev		创建并切换分支
+git branch		查看当前分支
 
  
