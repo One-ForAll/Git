@@ -17,5 +17,6 @@ git checkout dev		切换分支到dev
 )
 git branch		查看当前分支
 git branch -d dev 		删除dev分支
+这是分支dev增加的
 
  
