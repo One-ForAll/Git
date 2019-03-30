@@ -16,5 +16,7 @@ git branch dev		创建dev分支
 git checkout dev		切换分支到dev
 )
 git branch		查看当前分支
+git branch -d dev 		删除dev分支
+88888888888888888888888888888888888888888888888888
 
  
