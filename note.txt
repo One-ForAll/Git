@@ -16,6 +16,7 @@ git checkout -b dev		创建并切换分支
 git branch dev		创建dev分支
 git checkout dev		切换分支到dev
 )
+git checkout -b dev origin/dev将远程库中的dev分支创建到本地dev来
 git branch		查看当前分支
 git branch -d dev 		删除dev分支
 git merge dev		合并分支
@@ -28,6 +29,13 @@ git stash drop来删除工作现场
 2,git stash pop		恢复stash内容的同时,删除stash内容
 git remote		查看远程库的信息
 git remote -v		查看远程库的详细信息
+git pull			取回远程仓库某个分支的更新,再与本地指定分支合并
+(
+git pull = git fetch+git merge
+例如:git pull origin master:dev将远程仓库的master分支拉取过来,
+并与本地的dev分支合并,后面的冒号可以省略,即:
+git pull origin master	表示将远程master与当前分支合并
+)
 
 
  
