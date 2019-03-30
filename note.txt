@@ -28,5 +28,6 @@ git stash drop来删除工作现场
 2,git stash pop		恢复stash内容的同时,删除stash内容
 git remote		查看远程库的信息
 git remote -v		查看远程库的详细信息
+肖武聪沙雕
 
  
